@@ -1,0 +1,39 @@
+Source: libkomparediff2
+Section: kde
+Priority: optional
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Maximiliano Curia <maxy@debian.org>
+Build-Depends: cmake,
+               debhelper (>= 9),
+               kde-sc-dev-latest (>= 4:4.11),
+               kdelibs5-dev (>= 4:4.12),
+               pkg-kde-tools (>= 0.12)
+Standards-Version: 3.9.5
+XS-Testsuite: autopkgtest
+Homepage: http://www.kde.org/
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/libkomparediff2.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/libkomparediff2.git
+
+Package: libkomparediff2-4
+Section: libs
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: kompare (<< 4:4.12)
+Replaces: kompare (<< 4:4.12)
+Description: Library to compare files and strings
+ This package contains the library used to compare files and strings, and is
+ used in Kompare and KDevelop.
+ .
+ This package is part of the KDE Software Development Kit module.
+
+Package: libkomparediff2-dev
+Section: libdevel
+Architecture: any
+Depends: libkomparediff2 (= ${binary:Version}), ${misc:Depends}
+Description: Library to compare files and strings - development files
+ This package contains the library used to compare files and strings, and is
+ used in Kompare and KDevelop.
+ .
+ This package contains development headers for the kompare library.
+ .
+ This package is part of the KDE multimedia module.
