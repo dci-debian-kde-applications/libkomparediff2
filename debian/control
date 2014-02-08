@@ -29,7 +29,7 @@ Description: Library to compare files and strings
 Package: libkomparediff2-dev
 Section: libdevel
 Architecture: any
-Depends: libkomparediff2 (= ${binary:Version}), ${misc:Depends}
+Depends: libkomparediff2-4 (= ${binary:Version}), ${misc:Depends}
 Description: Library to compare files and strings - development files
  This package contains the library used to compare files and strings, and is
  used in Kompare and KDevelop.
