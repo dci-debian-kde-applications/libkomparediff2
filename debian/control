@@ -20,8 +20,8 @@ Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Breaks: kompare (<< 4:4.12)
 Replaces: kompare (<< 4:4.12)
-Description: Library to compare files and strings
- This package contains the library used to compare files and strings, and is
+Description: library to compare files and strings
+ This package contains a library used to compare files and strings, and is
  used in Kompare and KDevelop.
  .
  This package is part of the KDE Software Development Kit module.
@@ -30,10 +30,10 @@ Package: libkomparediff2-dev
 Section: libdevel
 Architecture: any
 Depends: libkomparediff2-4 (= ${binary:Version}), ${misc:Depends}
-Description: Library to compare files and strings - development files
- This package contains the library used to compare files and strings, and is
+Description: library to compare files and strings - development files
+ This package contains a library used to compare files and strings, and is
  used in Kompare and KDevelop.
  .
  This package contains development headers for the kompare library.
  .
- This package is part of the KDE multimedia module.
+ This package is part of the KDE Software Development Kit module.
