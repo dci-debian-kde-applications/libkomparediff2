@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 4:14.12.50 amd64
-libkomparediff2.so.5.0 libkomparediff2-5 #MINVER#
+libkomparediff2.so.5 libkomparediff2-5 #MINVER#
  _ZN12DiffSettings11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:14.12.50
  _ZN12DiffSettings11qt_metacastEPKc@Base 4:14.12.50
  _ZN12DiffSettings12loadSettingsEP7KConfig@Base 4:14.12.50
