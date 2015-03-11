@@ -4,6 +4,12 @@ libkomparediff2 (4:14.12.50-0ubuntu1) UNRELEASED; urgency=medium
 
  -- Harald Sitter <sitter@kde.org>  Mon, 02 Mar 2015 11:27:34 +0100
 
+libkomparediff2 (4:14.12.3-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release.
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 11 Mar 2015 14:14:17 -0700
+
 libkomparediff2 (4:14.12.2-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
