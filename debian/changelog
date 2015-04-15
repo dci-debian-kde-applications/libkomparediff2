@@ -1,12 +1,13 @@
-libkomparediff2 (4:14.12.50-0ubuntu1) UNRELEASED; urgency=medium
+libkomparediff2 (4:15.04.0-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Harald Sitter ]
   * KDE Frameworks 5 port
 
   [ Scarlett Clark ]
   * manual merge
+  * New upstream release
 
- -- Harald Sitter <sitter@kde.org>  Mon, 02 Mar 2015 11:27:34 +0100
+ -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 15 Apr 2015 12:19:33 -0700
 
 libkomparediff2 (4:14.12.3-0ubuntu1) vivid; urgency=medium
 
