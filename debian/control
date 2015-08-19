@@ -14,7 +14,7 @@ Build-Depends: cmake,
                libkf5parts-dev,
                libkf5xmlgui-dev,
                pkg-kde-tools (>= 0.12)
-Standards-Version: 3.9.5
+Standards-Version: 3.9.6
 XS-Testsuite: autopkgtest
 Homepage: http://www.kde.org/
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/applications/libkomparediff2.git
