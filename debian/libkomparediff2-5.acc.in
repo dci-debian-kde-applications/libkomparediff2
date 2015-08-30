@@ -2,7 +2,7 @@
 <descriptor>
 
 <version>
-    4.11.3
+    14.12.50
 </version>
 
 <headers>
@@ -10,7 +10,7 @@
 </headers>
 
 <libs>
-    /usr/lib/libkomparediff2.so
+    /usr/lib/@@DEB_HOST_MULTIARCH@@/libkomparediff2.so
 </libs>
 
 </descriptor>
