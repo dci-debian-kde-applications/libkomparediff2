@@ -4,13 +4,14 @@ Upstream-Contact: kde-multimedia@kde.org
 Source: git://anongit.kde.org/libkomparediff2
 
 Files: *
-Copyright: 2001-2013 Otto Bruggeman <otto.bruggeman@home.nl>
-           2004 Jarosław Staniek <staniek@kde.org>
-           2006 Matt Rogers <mattr@kde.org>
-           2007 Andreas Pakulat <apaku@gmx.de>
-           2001-2003 John Firebaugh <jfirebaugh@kde.org>
-           2007-2010 Kevin Kofler <kevin.kofler@chello.at>
-           2012 Jean-Nicolas Artaud <jeannicolasartaud@gmail.com>
+Copyright: 2011, Dmitry Risenberg <dmitry.risenberg@gmail.com>
+           1989-1991, Free Software Foundation, Inc
+           2012, Jean-Nicolas Artaud <jeannicolasartaud@gmail.com>
+           2001-2003, John Firebaugh <jfirebaugh@kde.org>
+           2007-2010, Kevin Kofler <kevin.kofler@chello.at>
+           2001-2009, Otto Bruggeman <bruggie@gmail.com>
+           2003, Otto Bruggeman <bruggie@home.nl>
+           2001-2009, Otto Bruggeman <otto.bruggeman@home.nl>
 License: GPL-2+
 
 Files: diff2export.h
@@ -19,11 +20,36 @@ Files: diff2export.h
        stringlistpair.cpp
        stringlistpair.h
        tests/*
-Copyright: 2006 Matt Rogers <mattr@kde.org>
-           2004 Jarosław Staniek <staniek@kde.org>
-           2007 Andreas Pakulat <apaku@gmx.de>
-           2011 Dmitry Risenberg <dmitry.risenberg@gmail.com>
+Copyright: 2011 Dmitry Risenberg <dmitry.risenberg@gmail.com>
 License: LGPL-2+
+
+Files: LibKompareDiff2Config.cmake.in
+Copyright: 2008, Andreas Pakulat <apaku@gmx.de>
+           2013, Jeremy Whiting <jpwhiting@kde.org>
+           2010, Niko Sams <niko.sams@gmail.com>
+License: BSD-3-clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ .
+ 1. Redistributions of source code must retain the copyright
+    notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the copyright
+    notice, this list of conditions and the following disclaimer in the
+    documentation and/or other materials provided with the distribution.
+ 3. The name of the author may not be used to endorse or promote products
+    derived from this software without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
+ IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+ OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+ IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
+ INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+ NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+ DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
+ THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 Files: debian/*
 Copyright: 2014, Maximiliano Curia <maxy@debian.org>

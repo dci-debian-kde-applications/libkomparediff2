@@ -1,8 +1,15 @@
-libkomparediff2 (4:15.12.0-0ubuntu1) UNRELEASED; urgency=medium
+libkomparediff2 (4:15.12.1-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release
+  * Merged with Debian
 
- -- Clive Johnston <clivejo@aol.com>  Sat, 02 Jan 2016 14:34:53 +0000
+ -- Clive Johnston <clivejo@aol.com>  Mon, 08 Feb 2016 20:29:13 +0000
+
+libkomparediff2 (4:15.08.3-1) unstable; urgency=medium
+
+  * New upstream release (15.08.3).
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 02 Dec 2015 12:40:07 +0100
 
 libkomparediff2 (4:15.08.2-0ubuntu2) xenial; urgency=medium
 
@@ -22,6 +29,13 @@ libkomparediff2 (4:15.08.1-0ubuntu1) wily; urgency=medium
   * New upstream release (15.08.1)
 
  -- Clive Johnston <clivejo@aol.com>  Tue, 22 Sep 2015 17:42:12 +0100
+
+libkomparediff2 (4:15.08.0-1) unstable; urgency=medium
+
+  * New upstream release (15.04.0).
+  * New upstream release (15.08.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 31 Aug 2015 10:35:49 +0200
 
 libkomparediff2 (4:15.08.0-0ubuntu1) wily; urgency=medium
 
@@ -61,9 +75,9 @@ libkomparediff2 (4:14.12.3-0ubuntu1) vivid; urgency=medium
 libkomparediff2 (4:14.12.2-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
-  * Remove unstable from watch file, uscan fails with 
+  * Remove unstable from watch file, uscan fails with
     remote site does not even have current version
-    
+
  -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 10 Feb 2015 08:43:27 -0800
 
 libkomparediff2 (4:14.12.0-0ubuntu1) vivid; urgency=medium
@@ -213,4 +227,3 @@ libkomparediff2 (4.11.80-0ubuntu1) trusty; urgency=low
   * libkomparediff2-4 breaks/replaces kompare << 4:4.11.80
 
  -- Rohan Garg <rohangarg@kubuntu.org>  Sat, 23 Nov 2013 17:54:47 +0100
-
