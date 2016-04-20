@@ -1,10 +1,11 @@
-libkomparediff2 (4:15.08.3-2~1.gbpc97935) UNRELEASED; urgency=medium
+libkomparediff2 (4:16.04.0-1~1.gbp134b94) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @c9793575f1891b17d64da11eaeaf257e6a46239a **
+  ** SNAPSHOT build @134b948a6cd1ca4123732c8a4e572cdfc01fe05c **
 
   * Bump Standards-Version to 3.9.8
+  * UNRELEASED
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 13 Apr 2016 12:04:24 +0200
+ -- Automatic packaging <jenkins@amadeus.gnuservers.com.ar>  Thu, 21 Apr 2016 01:03:13 +0200
 
 libkomparediff2 (4:15.08.3-1) unstable; urgency=medium
 
