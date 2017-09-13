@@ -24,7 +24,7 @@ Section: libs
 Architecture: any
 Multi-Arch: same
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: ${kde-l10n:all}
+Breaks: kompare (<< 4:16.08), kpart5-kompare (<< 4:16.08), ${kde-l10n:all}
 Replaces: ${kde-l10n:all}
 Description: library to compare files and strings
  This package contains a library used to compare files and strings, and is
