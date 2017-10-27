@@ -35,7 +35,10 @@ Description: library to compare files and strings
 Package: libkomparediff2-dev
 Section: libdevel
 Architecture: any
-Depends: libkomparediff2-5 (= ${binary:Version}), qtbase5-dev, ${misc:Depends}
+Depends: libkf5coreaddons-dev,
+         libkomparediff2-5 (= ${binary:Version}),
+         qtbase5-dev,
+         ${misc:Depends}
 Description: library to compare files and strings - development files
  This package contains a library used to compare files and strings, and is
  used in Kompare and KDevelop.
