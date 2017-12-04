@@ -11,7 +11,6 @@ Build-Depends: cmake (>= 2.8.12~),
                libkf5coreaddons-dev (>= 5.16.0~),
                libkf5i18n-dev (>= 5.16.0~),
                libkf5kio-dev (>= 5.16.0~),
-               libkf5parts-dev,
                libkf5xmlgui-dev (>= 5.16.0~),
                pkg-kde-tools (>= 0.12),
 Standards-Version: 4.1.1
