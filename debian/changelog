@@ -4,6 +4,9 @@ libkomparediff2 (4:17.08.3-0r1) UNRELEASED; urgency=medium
   * New upstream release.
   * Bump Standards-Version to 4.1.1, no changes required.
   * Simplify watch file, and switch it to https.
+  * Add needed dependencies for libkomparediff2-dev: libkf5codecs-dev,
+    libkf5config-dev, libkf5coreaddons-dev, libkf5i18n-dev, libkf5kio-dev,
+    and libkf5xmlgui-dev.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 04 Dec 2017 22:01:07 +0100
 

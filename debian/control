@@ -36,6 +36,12 @@ Package: libkomparediff2-dev
 Section: libdevel
 Architecture: any
 Depends: libkomparediff2-5 (= ${binary:Version}),
+         libkf5codecs-dev,
+         libkf5config-dev,
+         libkf5coreaddons-dev,
+         libkf5i18n-dev,
+         libkf5kio-dev,
+         libkf5xmlgui-dev,
          qtbase5-dev (>= 5.4.0~),
          ${misc:Depends},
 Description: library to compare files and strings - development files
