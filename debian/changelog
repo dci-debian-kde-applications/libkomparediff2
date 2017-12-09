@@ -8,6 +8,8 @@ libkomparediff2 (4:17.08.3-0r1) UNRELEASED; urgency=medium
     libkf5config-dev, libkf5coreaddons-dev, libkf5i18n-dev, libkf5kio-dev,
     and libkf5xmlgui-dev.
   * Remove unused libkf5parts-dev build dependency.
+  * Adjust l10npkgs_firstversion_ok to the version where kde-l10n will
+    drop translations.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 04 Dec 2017 22:01:07 +0100
 
